@@ -20,7 +20,7 @@ System.Console.Write("Z для второй точки >");
 double z2 = Convert.ToInt32(Console.ReadLine());
 
 double A = Math.Sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
-System.Console.WriteLine("Расстояние между точками >"+Math.Sqrt((A * A) + (z1 - z2) * (z1 - z2)));
+System.Console.WriteLine("Расстояние между точками >" + Math.Sqrt((A * A) + (z1 - z2) * (z1 - z2)));
 
 
 
