@@ -17,5 +17,5 @@
     return result;
 }
 
-double[] array = { 7.6, 34, 4.456465656, 7.0, 23.5 };
+double[] array = { 7.6, 34, 4.456465656, 7.0, 23.5 };// Задаём массив вещественных чисел
 System.Console.WriteLine(MaxMin(array));
