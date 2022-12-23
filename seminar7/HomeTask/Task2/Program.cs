@@ -54,10 +54,14 @@ bool Validate(int m, int n, int[,] array)
         return false;
     }
 }
+
+
 int row = Promt("введите искомую строку > ");
 int column = Promt("введите искомый столбец > ");
 int[,] array = CreateFillArray(5, 6);
+
 PrintArray(array);
+
 if (Validate(row, column, array))
 {
     System.Console.WriteLine($"елемент, стоящий на введённых позициях ={SearchInMatrix(array, row, column)}");
