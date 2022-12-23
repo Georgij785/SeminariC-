@@ -40,7 +40,7 @@ int FindMinIndex(int[] list)
 }
 int[,] CreateFillArray(int m,int n)
 {
-    int[,] array=new int[m,m+3];
+    int[,] array=new int[m,n];
     for (int i = 0; i < m ;i++)
     {
         for (int j = 0; j < m; j++)
